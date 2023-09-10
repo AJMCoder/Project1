@@ -1,3 +1,17 @@
+/* Google fots import */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+/* General styling */
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+}
+
+/* Nav Styling */
 .container {
     max-width: 1200px;
     margin: 0 auto
@@ -8,4 +22,22 @@
     list-style: none;
     justify-content: flex-end;
     gap: 20px;
+}
+
+/* Header Styling */
+header {
+
+}
+
+
+
+/* Main Content */
+main {
+    background-color: bisque;
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: aquamarine;
 }
