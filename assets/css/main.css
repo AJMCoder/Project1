@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@300&family=Playfair+Display:wght@500;600;800&display=swap');
 
 /* Astrisk wildcard selector to override default styles by the browser */
 * {
@@ -38,8 +38,10 @@ header a {
 
 h1 {
     letter-spacing: 1px;
-    color: greenyellow;
-    -webkit-text-stroke: 0.01px grey;
+    color: rgb(141, 232, 6);
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    text-shadow: -2px 2px 2px darkslategray;
 }
 
 #navigation {
