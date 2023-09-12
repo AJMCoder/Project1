@@ -8,28 +8,47 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
-}
-
-/* Nav Styling */
-.container {
-    max-width: 1200px;
-    margin: 0 auto
-}
-
-.container ul {
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    gap: 20px;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* Header Styling */
 header {
-
+    background-color: white; 
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;   
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
+h1 {
+    letter-spacing: 1px;
+    color: greenyellow;
+    -webkit-text-stroke: 0.01px grey;
+}
+
+/* Navigation Bar styles with dropdown */
+
+#navigation {
+    letter-spacing: 1px;
+    list-style-type: none;
+    font-size: 130%;
+}
+
+nav {
+    position: absolute;
+    background-color: white;
+    padding: 0 1rem;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0;
+    display: none;
+}
 
 /* Main Content */
 main {
