@@ -20,7 +20,7 @@ body {
 
 /* Header Styling */
 header {
-    background-color: white; 
+    background-color: lightgray; 
     padding: 0 1rem;
     position: fixed;
     z-index: 99;   
@@ -38,7 +38,7 @@ header a {
 
 h1 {
     letter-spacing: 1px;
-    color: rgb(141, 232, 6);
+    color: rgb(125, 201, 12);
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     text-shadow: -2px 2px 2px darkslategray;
@@ -61,7 +61,7 @@ h1 {
 /* Navigation Bar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: white;
+    background-color: lightgray;
     padding: 0 1rem;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -90,9 +90,20 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: aquamarine;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
+
+#social-networks i {
+    font-size: 180%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
