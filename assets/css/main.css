@@ -123,8 +123,8 @@ h2, h3 {
     font-size: 280%;
 }
 
-#benefits-physical > div,
-#benefits-mental > div {
+#physical-benefits > div,
+#mental-benefits > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -207,23 +207,23 @@ h2, h3 {
     }
 
     /* Reasons section */
-    #benefits-physical,
-    #benefits-mental {
+    #physical-benefits,
+    #mental-benefits {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
 
-    #benefits-physical > div,
-    #benefits-mental > div {
+    #physical-benefits > div,
+    #mental-benefits > div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #mental-benefits > div {
         text-align: end;
         align-self: flex-end;
     }
-    
+
 }
 
 /* Media query: laptops and desktops (992px and up) */
