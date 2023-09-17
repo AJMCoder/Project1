@@ -139,7 +139,7 @@ h2, h3 {
 }
 
 #circle-cover-bg {
-    background: url("..images/happy.jpg") no-repeat top center/cover; 
+    background: url('../images/happy.jpg') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -147,6 +147,12 @@ h2, h3 {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
