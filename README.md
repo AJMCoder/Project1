@@ -1,6 +1,6 @@
 # All4Tennis
 
-![Site view across different devices]()
+![Site view across different devices](/assets/images/readmeimages/website-devices.png)
 
 All4Tennis is a site aimed at anyone and everyone. Our goal is to encourage as many as we can into the sport of tennis as believe it to be the best. The target audience of All4Tennis are those individuals who are looking for a way to learn a new skill, or build up their strength, or even just want to socialise with new people and have fun. This website is here to guide and offer a snapshot into what tennis has to offer, and help point them in the right direction of where and how to get involved.
 
@@ -31,7 +31,7 @@ All4Tennis is live as a webpage, it can be viewed [here]: https://ajmcoder.githu
     - This section of the website should allow the user to sign up for to the community of All4Tennis and register their interest.
     - The options of Beginner, Advanced or Social allows the user to select a preference they deem themselves to be, so that the response back can be tailored to them.
 
-![Sign Up](/assets/images/readmeimages/)    
+![Sign Up](/assets/images/readmeimages/signup.png)    
 
 - __Footer__
     - The footer section inks the user to any of the available social media pages for All4Tennis incase they want to explore more or be more up-to-date with the tennis programs. 
@@ -43,10 +43,10 @@ All4Tennis is live as a webpage, it can be viewed [here]: https://ajmcoder.githu
 
 ### Validator testing
 - HTML
-    - No errors were returned when passed through the W3C validator[W3C Validator]()
+    - No errors were returned when passed through the [W3C Validator](/assets/images/readmeimages/validator.png)
 
 - CSS
-    - 
+    - No errors were returned for the CSS [W3C Validator](/assets/images/readmeimages/ccs-validator.png)
 
 - Lighthouse
     - 
