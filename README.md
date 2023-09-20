@@ -43,13 +43,13 @@ All4Tennis is live as a webpage, it can be viewed [here]: https://ajmcoder.githu
 
 ### Validator testing
 - HTML
-    - No errors were returned when passed through the [W3C Validator](/assets/images/readmeimages/validator.png)
+    - No errors were returned when passed through the ![W3C Validator](/assets/images/readmeimages/validator.png)
 
 - CSS
-    - No errors were returned for the CSS [W3C Validator](/assets/images/readmeimages/ccs-validator.png)
+    - No errors were returned for the CSS ![W3C Validator](/assets/images/readmeimages/ccs-validator.png)
 
 - Lighthouse
-    - 
+    - The score is shown here for the ![Lighthouse Test](/assets/images/readmeimages/lighthouse.png)
 
 ### De-bugging: 
 - Fixed issue where cover-text wasnt displaying over tennis-player image. Section tags were not surrounding the cover-text id meaning they were not wrapped in the Tennis player image selection. I moved tags to surround both and fixed issue.
